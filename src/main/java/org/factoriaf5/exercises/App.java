@@ -24,8 +24,8 @@ public final class App {
         arrayNum.add(2015);
         
         for (int item : arrayNum) {
-                if ( ArmstrongNumber.checkArmstrong(item)) {
-            System.out.println("num: " + item + " - is Armstrong Number");
+            if ( ArmstrongNumber.checkArmstrong(item)) {
+                System.out.println("num: " + item + " - is Armstrong Number");
             } else {
                 System.out.println("num: " + item + " - is not Armstrong Number");
             }
